@@ -1,0 +1,23 @@
+Object Oriented Programming is a Programming paradigm which is most suitable for programs that are based on real world entities and programs which are large. The problem with unstructured programming is that every code that is written is dumped in a single file which makes it harder to track if the program is very long. Same with functional programming, even if functional programming reduces code redundancy by some amount and it also somehow tackles the issue of creating a function to keep reusing it, it doesn't come close to object oriented programming's efficiency when we are creating large programs.So, we can say that object oriented programming solves the issues created by other forms of programming when creating a large program.
+The features of object oriented programming are:
+1)Objects
+2)Classes
+3)Abstraction
+4)Encapsulation
+5)Inheritance
+6)Polymorphism
+7)Message sharing
+
+Objects: Objects are run time entities which means they only exist after the execution of the program. It is the representation of real world entities inside the program. Objects can people, places, vehicles etc. ie anything that is in present world can be represented as objects. This makes object oriented programming the best paradigm to work on when creating applications for the real large world. These objects are made by the help of classes. Objects of the same classes can have similar structure but the data they hold are different. This helps in decreasing code redundancy.
+
+Classes: Classes are a combination of variables and methods. Variables of different data types store different data inside a class. The data variable can have 3 different access types which are private, protected and public. Unless the data is specified to be public, we cannot directly acess it outside of the class. For that we nedd methods specified to be public. These public methods are the only way to manipulate and use data. So, the ideas of Abstraction and Encapsulation came from classes. Classes are extremely useful as they serve as a framework for objects which hold data and data is the most important aspect of object oriented programming.
+
+Abstraction: Abstraction is an essence of OOP. It is the process of working with objects without revealing the inner data or inner complexities. This infact helps the programmer to be more secretive about his ideas. Abstraction is achieved in OOP with the help of classes where data and methods are combined to extract only the most essential features.
+
+Encapsulation: Encapsulation is the process of combining data (also known as fields or attributes ) and functions called (methods or beahaviors) into a single framework called class. Encapsulation helps prevent the tampering of data from outside the class. Any form of change in the data is only possible through the methods.Data hiding is possible doue to the concept of Encapsulation, since the data are hidden from the outside world as access to methods are essentially featues.
+
+Inheritance: The concept of multiple classes brought forward the ideas of Inheritance where we could inherit the features of parent class to child classes. If we need a class that has it's own featue and at the same time also has similar features to other classes, we use Inheritance.There are multiple forms of inheritance like single inheritance, multiple inheritance, multilevel inheritance etc and each of them serve a single purpose of decreasing code redundancy and making the program much more efficient. Inheritance is an import feature where we communicate between parent classes and derived classes. 
+
+Polymorphism: Polymorphism is the ability of a variable or an operator to have 2 different features. Generally, the c++ compiler assigns an operator a certain feature. This feature defines its behavior. Now, the feature of Polymorphism is responsible for adding an additional feature to the operator. For eg: the '+' is an arithmetic operator whic Generally is used for arithmetic operations of summation but we can overload it through operator overloading to make it a concatenating operator. Polymorphism can be achieved from function overloading ie where a single function having the same variable name can show 2 different features. 
+
+Message passing: Message passing is another feature of OOP where by the methods like inheritance, 2 objects representing 2 different real world entities can share their data through methods. For eg: a single class 'vehicle' has two different objects ie 'car' and 'bus'. Now through the use of methods and also through inheritance we can share important features like chassis information, kms run etc. 
