@@ -1,0 +1,5 @@
+What is the software crisis?
+There were times where there were no proper programming paradigms that could make writing code less redundant. This meant that everything had to coded manually and one by one. This made creation of large programs extremely costly as well as extremely time consuming. Many programs were failing as a result of this problem. In the wake of this questions like
+How to develop support for growing volume of existing software?
+How to keep pace with a rapidly growing demand for more error-free and efficient software/
+the answer to all of this has been object oriented programming. A large number of code have already been coded so object oriented programming makes it possible to use that code and possible make programs which are less redundant by making this code.
