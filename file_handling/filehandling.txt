@@ -1,0 +1,14 @@
+1) stream: stream can be define as the flow of data, when dealing with intake and outtake of data from input and output devices, we use cin and cout.
+2) 
+
+class hierarchy
+--ios: ios is the parent class for all stream functions, ie any input and output class that communicates between the user and the computer when writing a cpp file is handles by the ios stream class, also any other stream classes that target input and output of data to any source or destination, is a derived class of ios class
+--filebuf: it sets the file buffer to read and write
+--istream: responsible for input of data
+--ostream: responsible for output of data
+--fstreambase: it is a derivation of ios class but it normally handles the input and output of data in a file 
+--istream: it is derived from fstreambase and it handles inputing data to the file 
+--ostream: it is derived from fstreambase and it handles outputin data to the file
+--withassign classes: withassign classes are used for operator overloading when iostream, istream or ostream is used. it is now removed from cpp library as it was found to be deficient
+--
+
