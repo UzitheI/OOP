@@ -1,2 +1,27 @@
 What is inheritance?
-inheritance can be defined as the process of inheriting the properties of parent class by a child class. Inheritance is ta 
+inheritance can be defined as the process of inheriting the properties of parent class by a child class. Inheritance is one of the most important features of OOP which is important to decrease code redundancy, it is also one of the most important tools to preserve data and conduct effective transmission of data from one class to another class. Inheritance groups different classes in the form of a tree. The higher the node of the tree , the more generalized the class is.
+
+The newer the class or every derived class is somewhat a specialized class. The inheritance of classes happens only with the use of access specifiers. any thing that is specified as private cannot be inherited by the derived class
+
+There are 3 types of inheritance:
+i)Private inheritance: It is the type of inheritance where the data that is accessed as private cannot be accessed through either first derived class or second derived class.
+
+ii)Public and Protected: They are similar interms of inheritance as private members cannot be inherited by 3rd base class and second base class but all other forms of data can be inherited. 
+
+Irrespective of inheritance, data can be accessed through a function called method and methods as long as they are specified to be public can be inherited by the derived class:
+
+The types of inheritance are:
+Single:inheriance between a parent and a derived class
+Multiple:inheritance between 2 parents and a derived class
+Multilevel:inheriance between class A and class B, also class B acts as teh parent class for class C
+MultiPath: inheritance between class A and Class B  and class D in that order, also inheriance between class A class C and class D, this type of inheriance creates ambiguity which can be solved by ':'operator to identify through which path class D is inheriting the properties of class A
+Hierarchial: Hierarchial methods are applied
+
+Hybrid: combinations of 2 types of inheriance
+
+
+
+
+
+
+
