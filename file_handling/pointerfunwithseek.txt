@@ -1,0 +1,7 @@
+There are different ways to manipulate the seekp pointer to reach at various destinations from the file, some of them are:
+i)seekp(0,ios::beg)->stay at the start of the file
+ii)seekp(0,ios::cur)->stay where you are
+iii)seekp(0,ios::end)->go to the end of file 
+iv)seekp(n,ios::beg)-> go to (n+1 )byte from the file
+v)seekp(-n,ios::cur)-> go to n byte back from the current
+
