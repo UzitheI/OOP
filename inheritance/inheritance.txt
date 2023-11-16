@@ -1,1 +1,2 @@
 What is inheritance?
+inheritance can be defined as the process of inheriting the properties of parent class by a child class. Inheritance is ta 
