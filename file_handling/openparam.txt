@@ -1,0 +1,46 @@
+There are different parameters from which we can open a file, the opening of a file purely depends on the use case
+when we open a file on default mode that is 
+infile.open("myfile.txt");
+we are opening it in default mode
+which means we are opening it in :
+ios:out when we are using ofstream
+ios:in when we are using instream
+
+there are various methods of opening a file
+
+//the file mode parameter can be memorized as:
+the app ate binary in nocreate and noreplace so we had to out trunc it
+
+app->open the file in append mode from the end of file
+ate-> open file from the end of file
+binary-> open file in binary mode
+in->open file in read only mode
+nocreate->fails to open the file if it doesn't exist
+noreplace->opens the file if it exists already
+out->open file in write only mode
+trunc->delete the content of the file if it exisits
+
+opening a file in ios::out, also opens the file in ios::trunc by default 
+the difference between ios::app and ios::ate is that append only allows the change from the end of file but ate allows the change in any place of the file
+
+we can also combine 2 file opening modes using bitwise operator ||
+
+infile.open("myfile.txt", ios::app||ios::out);
+
+FILE POINTER
+
+There are 2 different types of file pointers, one of them is:
+
+
+get pointer: get pointer is used inorder to know the place of the pointer inside teh file 
+
+put pointer: put pointer is used in order to initialize the place of the pointer inside the file 
+
+There are 3 different methods of initializing file pointer:
+1)read: Read file mode gets inside the file without deleting the file content and sets the pointer at the beginning of the file 
+2)write: write file mode gets inside the file by removing its content and sets teh file pointer at the beginning of the file mode
+3) append: append file mode gets inside the file without removing its content and sets teh pointer location at the end of the FILE
+
+
+
+
