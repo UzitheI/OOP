@@ -1,0 +1,7 @@
+describe the chain of constructors and destructors in inheritance
+
+constructors are special objects which have the similar name to the class, they are extremely important to initialize values as well as to generally know where the control of the program is
+
+chain of constructors 
+
+if you are creating a parent class with the first level derived class and second level derived class and you make the object of the second level derived class, you will get the constructor of the parent class called first, then the second class and then the third second level derived class, same goes for the deconstructor
