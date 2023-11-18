@@ -5,3 +5,9 @@ constructors are special objects which have the similar name to the class, they 
 chain of constructors 
 
 if you are creating a parent class with the first level derived class and second level derived class and you make the object of the second level derived class, you will get the constructor of the parent class called first, then the second class and then the third second level derived class, same goes for the deconstructor
+
+
+
+to be clear:
+first constructors are called, the constructors are called in the sequence of the parent to the derived and the second derived
+the destructors are called at the reverse order, first destructor is called from the last derived class, then teh second derived class and finally the parent class
