@@ -1,0 +1,12 @@
+Templates allow generic programming in c++. Through the use of templates, we can create generic classes and functions which when created once can support a long range of data types. it severly decreases code redundancy as there is no need for recreating functions with similar properties. It is similar for classes.
+
+Function templates can be defined as functions which when created once as a generic function can handle multiple data types
+
+class templates are similar to function templates but for class
+
+Advantages
+-reduced code redundancy
+-reduced complexity 
+-saves time
+-code becomes more managable
+
