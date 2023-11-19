@@ -1,0 +1,13 @@
+What is exception handling?
+--> sometimes we train our software to handle few necessary exceptions or errors that are expected to occur by writing a piece of code for it which is called exception handling
+
+exception handling cannot handle extreme interrupts or hardware interrupts, they are in general made to handle issues regarding software,
+
+for eg: if there is an overflow of memory, we can detect it and switch the control of the program to handle the errors that are currently being requested that continuing the program and cause a massive error
+
+Exception handling in c++ can be done by using  3 keywords mostly:
+try
+throw 
+catch 
+
+we essentially check for errors or the most important conditional code is written in try, if the error is present, we can use the throw to handle the error by switching the control to the area where the treatment code is written or we can bascally use the 'throw' command to switch to the main code after the issue is dealt with
