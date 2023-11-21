@@ -1,0 +1,5 @@
+class is the building block of a c++ program, a class can be used as the blueprint of an object
+ie 
+a single class can make multiple instances which may contain different data but all of them have similar structure
+class is also very important in the sense that it reduces code redundancy and it also makes it possible to create large program
+it is a user defined data type which has its own data members, classes also provide the feature of abstraction where we can hide the necessary data and any form of data tampering can be avoided as data can only be accessed using methods
