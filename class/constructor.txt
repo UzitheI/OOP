@@ -1,0 +1,23 @@
+a copy constructor can be defined as the constructor which can be used to create an object from another object. 
+a copy constructor can also be defined as an overloaded constructor that helps initialize an object from another object 
+
+class myteam{
+    private:
+    int age;
+    public:
+    myteam(){
+        //default constructor
+    }
+    myteam(int age){
+        //parameterized constructor
+    }
+    myteam(const myteam m1){
+        //copy constructor
+    }
+};
+
+we call copy constructor because:
+i) if we are initializing another object from an object, we use copy constructor;
+ie s1=s2 where student is the class and s1 and s2 are it's objects
+ii) when object of the same class is being used as the default parameter
+iii)
