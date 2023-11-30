@@ -12,7 +12,8 @@ class height{
         cin>>inches;
     }
     void addheight(height h1, height h2){
-        feet=h1.inches+h2.inches;
+        inches=h1.inches+h2.inches;
+        feet=inches/12;
         inches=inches%12;
         feet+=h1.feet+h2.feet;
 
