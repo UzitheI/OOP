@@ -21,7 +21,7 @@ class company{
         e.get();
     }
     void showdata(){
-        cout<<"The comp is "<<comp<<endl;
+        cout<<"The comp  is "<<comp<<endl;
         e.show();
     }
 };
